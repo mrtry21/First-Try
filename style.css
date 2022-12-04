@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: red dashed 1px; */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+:root{
+    --bg-color: #f7fcff;
+    --text-color: #00312c;
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    }
+
+    header {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border-radius: 12px;
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        width: 50%;
+        text-transform: uppercase;
+    }
+    .ht-container {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: 500px;
+        margin-bottom: 10%;
+    }
+
+    /* HOW TO 1 */
+    .ht-container .ht-1{
+        background-color: var(--text-color);
+        margin-bottom: 2%;
+        width: 80%;
+        border-radius: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ht-container .ht-1 h3{
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        margin-top: 2%;
+        margin: 2%;
+    }
+    .ht-container .ht-1 iframe{
+        width: 70%;
+        height: 400px;
+        margin-bottom: 2%;
+    }
+
+        /* HOW TO 2 */
+
+    .ht-container .ht-2{
+        margin-bottom: 2%;
+        width: 80%;
+        border-radius: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: var(--box-shadow);
+    }
+    .ht-container .ht-2 h3{
+        color: var(--text-color);
+        margin-top: 2%;
+        margin: 2%;
+    }
+    .ht-container .ht-2 iframe{
+        width: 70%;
+        height: 400px;
+        margin-bottom: 2%;
+    }
+
+        /* HOW TO 3 */
+
+    .ht-container .ht-3{
+        background-color: var(--text-color);
+        margin-bottom: 2%;
+        width: 80%;
+        border-radius: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ht-container .ht-3 h3{
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        margin-top: 2%;
+        margin: 2%;
+    }
+    .ht-container .ht-3 iframe{
+        width: 70%;
+        height: 400px;
+        margin-bottom: 2%;
+    }
+
+    @media (max-width: 400px){
+
+        header {
+            font-size: .3rem;
+        }
+
+        .ht-container .ht-1 h3{
+            color: var(--bg-color);
+            margin: 2%;
+            font-size: 10px;
+        }
+        .ht-container .ht-1 iframe{
+            width: 70%;
+            height: 100px;
+        }
+
+        .ht-container .ht-2 h3{
+            color: var(--text-color);
+            margin: 2%;
+            font-size: 10px;
+        }
+        .ht-container .ht-2 iframe{
+            width: 70%;
+            height: 100px;
+        }
+
+        .ht-container .ht-3 h3{
+            color: var(--bg-color);
+            margin: 2%;
+            font-size: 10px;
+        }
+        .ht-container .ht-3 iframe{
+            width: 70%;
+            height: 100px;
+        }
+    }
+
+    @media (max-width: 700px){
+
+        header {        
+            font-size: .5rem;
+        }
+
+        .ht-container .ht-1 h3{     
+            color: var(--bg-color);
+            margin: 2%;
+            font-size: 15px;
+        }
+        .ht-container .ht-1 iframe{
+            width: 70%;
+            height: 200px;
+        }
+
+        .ht-container .ht-2 h3{
+            color: var(--text-color);
+            margin: 2%;
+            font-size: 15px;
+        }
+        .ht-container .ht-2 iframe{
+            width: 70%;
+            height: 200px;
+        }
+
+        .ht-container .ht-3 h3{
+            color: var(--bg-color);
+            margin: 2%;
+            font-size: 15px;
+        }
+        .ht-container .ht-3 iframe{
+            width: 70%;
+            height: 200px;
+        }
+        }   
